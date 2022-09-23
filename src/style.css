@@ -8,33 +8,97 @@ li{
     color: rgb(172, 172, 172)
 }
 
+.size3
+ul {
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left:120px;
+    color: rgb(172, 172, 172)
+    font-family: Arial, Helvetica, sans-serif;
+    size: 6;
+}
+
 .a{
     text-decoration:none;
     color: rgb(106, 106, 106);
     font-family: Arial, Helvetica, sans-serif;
-    size: 9;
+    size: 8;
     
 }
 
-.centered-thing {
-    position: absolute;
-    margin: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 8px
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.your-centered-div {
-    width: 560px; /* you have to have a size or this method doesn't work */
-    height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
-
-    position: absolute; /* positions out of the flow, but according to the nearest parent */
-    top: 0; right: 0; /* confuse it i guess */
-    bottom: 0; left: 0;
-    margin: auto; /* make em equal */
-}
-
-.iframe {
-    display: block;
-    margin: 0 auto;
+ .p{
+    font-family: Arial, Helvetica, sans-serif;
+    size: 9
+    margin-left:100px;
  }
+
+ .div{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px; 
+    list-style: none;  
+    ;justify-content: center           
+}
+
+
+.btn2{
+    width: 250px;
+    height: 30px;
+    color: rgb(160, 160, 160);
+    border-radius: 6px; 
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.btn3{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(245, 245, 245);  
+    color: rgb(160, 160, 160);
+    border-radius: 4px; 
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+td {
+    width: 240px;
+    height: 30px;
+    border: solid 1px silver;
+    text-align: center;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 125, 160);  
+    color: rgb(255, 255, 255);
+    border-radius: 4px; 
+    border: none;
+    font-size: 12px;
+    font-weight: 800;
+
+}
+
+.table{
+    margin-top: 50px;
+}
+
+.img{
+    margin-left:250px;
+}
